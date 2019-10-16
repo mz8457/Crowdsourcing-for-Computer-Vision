@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Object Recognition</title>
+  <link rel="stylesheet" type="text/css" href="object_recognition.css" />
+</head>
+
+<body>
+  <h1>Welcome To The Object Recognition Task!</h1>
+  <h2>Instruction:</h2>
+
+  <div id = "sidebar">
+    <ol>
+      <li>Read the instruction carefully.</li>
+      <li>Know the definition of the object and identify the good and bad examples.</li>
+      <li>Choose the photos in the task that contain the object. (You can choose more than one photos!)</li>
+      <li>Write your comments. (Your suggestion is important for us!)</li>
+      <li>Submit your choices and comments.</li>
+    </ol>
+  </div>
+
+  <p id="object">The object: <a href="https://en.wikipedia.org/wiki/Sun">SUN</a></p>
+
+<div id = "example">
+<table>
+<tr>
+  <th>Good Labels</th>
+</tr>
+ <tr>
+   <td>
+     <img class = "img" src = "Instruction_Image/good1.jpeg" >
+     <img class = "img" src = "Instruction_Image/good2.jpeg">
+     <img class = "img" src = "Instruction_Image/good3.jpeg">
+   </td>
+</table>
+<table>
+<tr>
+  <th>Bad Labels</th>
+</tr>
+ <tr>
+   <td><img class = "img" src = "Instruction_Image/bad1.jpeg">
+        <img class = "img" src = "Instruction_Image/bad2.jpeg">
+        <img class = "img" src = "Instruction_Image/bad3.jpeg"></td>
+ </tr>
+</table>
+</div>
+
+<h2>Task:</h2>
+<p class = "content">Please select all images that contains the sun!</p>
+<form>
+<div id = "task">
+<table>
+ <tr>
+   <td><img class = "img" src = "Task_Image/task1.jpeg" ></td>
+   <td><img class = "img" src = "Task_Image/task2.jpeg" ></td>
+   <td><img class = "img" src = "Task_Image/task3.jpeg" ></td>
+ </tr>
+ <tr>
+   <td><input type = "checkbox" name = "my_checkboxes" value = "1"></td>
+   <td><input type = "checkbox" name = "my_checkboxes" value = "2"></td>
+   <td><input type = "checkbox" name = "my_checkboxes" value = "3"></td>
+ </tr>
+ <tr>
+   <td><img class = "img" src = "Task_Image/task4.jpeg" ></td>
+   <td><img class = "img" src = "Task_Image/task5.jpeg"></td>
+   <td><img class = "img" src = "Task_Image/task6.jpeg"></td>
+ </tr>
+ <tr>
+   <td><input type = "checkbox" name = "my_checkboxes" value = "4"></td>
+   <td><input type = "checkbox" name = "my_checkboxes" value = "5"></td>
+   <td><input type = "checkbox" name = "my_checkboxes" value = "6"></td>
+ </tr>
+ <tr>
+   <td><img class = "img" src = "Task_Image/task7.jpeg" ></td>
+   <td><img class = "img" src = "Task_Image/task8.jpeg"></td>
+   <td><img class = "img" src = "Task_Image/task9.jpeg" ></td>
+ </tr>
+ <tr>
+   <td><input type = "checkbox" name = "my_checkboxes" value = "7"></td>
+   <td><input type = "checkbox" name = "my_checkboxes" value = "8"></td>
+   <td><input type = "checkbox" name = "my_checkboxes" value = "9"></td>
+ </tr>
+</table>
+</div>
+<p class = "content">Could you give me some comments or feedback?</p>
+<p id = "comment">
+    <textarea name="comments" value=""></textarea>
+</p>
+<p>
+  <input id = "submit" type = "submit" name = "submitButton" value = "Submit Hit">
+</p>
+</form>
+<script src="object_recognition.js"></script>
+</body>
+</html>

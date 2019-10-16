@@ -1,0 +1,68 @@
+body {
+  margin: 100;
+  background-color: lightyellow;
+}
+
+h1 {
+  margin-left: 200px;
+  font-family: serif;
+}
+h2 {
+  margin: 10;
+  font-family: serif;
+}
+#sidebar{
+  width: 50%;
+  margin-left: 20px;
+}
+ol li{
+  padding-bottom: 5px;
+}
+#scene{
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#definition{
+  font-size: 16px;
+  margin-left: 23px;
+  font-style: italic;
+}
+#example{
+  margin-left: 30px;
+  padding: 5px;
+  width: 380px;
+  border: 1px solid black;
+  border-collapse: separate;
+  border-spacing: 5px;
+  text-align: center;
+}
+.img{
+   width: 120px;
+   height: 100px;
+}
+.content{
+  margin-left: 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
+#task{
+  margin-left: 30px;
+  padding: 10px;
+  width: 380px;
+  border: 1px solid black;
+  border-collapse: separate;
+  border-spacing: 5px;
+  text-align: center;
+}
+#comment{
+  margin-left: 15px;
+}
+textarea{
+  width : 400px;
+  height : 50px;
+}
+#submit{
+  margin-left: 200px;
+  font-size: 25px;
+}
